@@ -1,0 +1,15 @@
+
+###
+POST http://temauttag.geoaccess-nedladdning-tst.mccloud.lm.se:8080/api/v1/uttag
+Content-Type: application/json
+ 
+{
+   "tema" : "inskrivning",
+    "dataset" : {
+      "kommun" : "2181"
+   },
+   "uttagsparametrar":{
+     "typ":"basuttag",
+      "delmangder":["agandeAllt","part"]
+   }
+}
